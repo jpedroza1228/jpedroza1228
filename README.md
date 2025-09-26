@@ -14,12 +14,6 @@
       </ul>
   </ul>
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=jpedroza1228)](https://github.com/anuraghazra/github-readme-stats)
-<br>
-![](https://github-readme-streak-stats.herokuapp.com/?user=jpedroza1228)
-<br>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=jpedroza1228)
-
 <h2>Tools</h2> 
 
 <a href="https://code.visualstudio.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="50" height="50"/> </a> <br>
@@ -45,6 +39,14 @@
 <h2>Blog Posts</h2>
 
 🚧 Work in progress 🚧
+
+<h2>GitHub Stats</h2>
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=jpedroza1228)](https://github.com/anuraghazra/github-readme-stats)
+<br>
+![](https://github-readme-streak-stats.herokuapp.com/?user=jpedroza1228)
+<br>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=jpedroza1228)
 
 <!--
 <a href="" target="_blank" rel="noreferrer"> <img src="" alt="" width="50" height="50"/> </a>

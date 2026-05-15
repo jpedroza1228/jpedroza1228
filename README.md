@@ -24,7 +24,6 @@
 
 <a href="https://quarto.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/quarto-dev/quarto-web/blob/main/quarto.png?raw=true" alt="Quarto" width="50" height="50"/> </a> 
 <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/jupyter/jupyter.github.io/blob/main/assets/try/jupyter.png?raw=true" alt="Jupyter" width="50" height="50"/> </a>
-<a href="https://marimo.io/" target="_blank" rel="noreferrer"> <img src="https://github.com/marimo-team/marimo/blob/main/frontend/public/logo.png?raw=true" alt="Marimo" width="50" height="50"/> </a> <br>
 
 <a href="https://sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/sqlite/sqlite/refs/heads/master/art/sqlite370.svg" alt="sqlite" width="50" height="50"/> </a>
 <a href="https://duckdb.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/duckdb/duckdb/refs/heads/main/logo/DuckDB_Logo-horizontal.svg" alt="duckdb" width="50" height="50"/> </a> <br>

@@ -66,5 +66,6 @@ def update_readme():
       f.write(updated_content)
       
   print(f"Successfully and cleanly updated the README with: '{title}'")
-# if __name__ == "__main__":
-#     update_readme()
+
+if __name__ == "__main__":
+  update_readme()

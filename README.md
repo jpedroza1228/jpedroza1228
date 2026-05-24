@@ -10,7 +10,7 @@
 <li>Mastodon: <a href="https://fosstodon.org/@Jpedroza"> @Jpedroza@fosstodon.org</a> </li>
 </ul>
 
-<h2>Tools</h2> 
+<h2>Tools I Often Use</h2> 
 
 <a href="https://code.visualstudio.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="50" height="50"/> </a> <br>
 

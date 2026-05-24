@@ -35,37 +35,43 @@ def get_post_url(post):
 def update_readme():
   readme_path = "README.md"
     
-  # 1. Gather newest post data
   newest_post_folder = get_posts()[0]
   title, subtitle, date, categories = get_post_metadata(newest_post_folder)
   url = get_post_url(newest_post_folder)
   
   category_tags = " ".join([f"<code>{cat}</code>" for cat in categories]) if categories else ""
   
-  # 2. Build the exact HTML string
   blog_html = (
-      f"Newest blog post:<br>\n"
-      f"<strong><a href='{url}'>{title}</a></strong> - <em>{date}</em><br>\n"
-      f"<small>{subtitle}</small> {category_tags}\n"
+    f'Newest blog post:<br>\n'
+    f'<strong><a href="{url}">{title} {subtitle}</a></strong><br>\n'
+    f'Published date: {date}<br>\n'
+    f'Topics covered: {category_tags}\n'
   )
   
-  # 3. Read the profile README
   with open(readme_path, "r", encoding="utf-8") as f:
-      readme_content = f.read()
-  # 4. Verify the tags exist exactly as written to prevent quiet failures
-  if "" not in readme_content or "" not in readme_content:
-      print("Error: Could not find the exact comment tags in your README.md!")
-      return
-  # 5. Split using hardcoded string literals to guarantee no "empty separator" error
-  before_blog = readme_content.split("")[0]
-  after_blog = readme_content.split("")[1]
-  # 6. Reassemble the file cleanly
-  updated_content = f"{before_blog}\n{blog_html}{after_blog}"
-  # 7. Save the file back down
+    readme_content = f.read()
+        
+  target_heading = "<h2>Blog Posts</h2>"
+
+  if target_heading not in readme_content:
+    print(f"Error: Could not find '{target_heading}' in your README.md!")
+    return
+
+  before_heading = readme_content.split(target_heading)[0]
+  
+  raw_after_heading = readme_content.split(target_heading, 1)[1]
+
+  next_section_target = "<h2>GitHub Stats</h2>"
+  if next_section_target in raw_after_heading:
+    after_blog_content = raw_after_heading.split(next_section_target)[1]
+    rest_of_file = f"\n\n{next_section_target}{after_blog_content}"
+  else:
+    rest_of_file = raw_after_heading
+  
+  updated_content = f"{before_heading}{target_heading}\n\n{blog_html}{rest_of_file}"
+  
   with open(readme_path, "w", encoding="utf-8") as f:
-      f.write(updated_content)
-      
-  print(f"Successfully and cleanly updated the README with: '{title}'")
+    f.write(updated_content)
 
 if __name__ == "__main__":
   update_readme()

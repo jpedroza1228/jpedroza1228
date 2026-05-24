@@ -28,7 +28,6 @@
 
 <h2>Blog Posts</h2>
 
-Newest blog post: 
 <h2>GitHub Stats</h2>
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=jpedroza1228)](https://github.com/anuraghazra/github-readme-stats)

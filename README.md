@@ -26,10 +26,7 @@
 
 <a href="https://github.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="50" height="50"/> </a>
 
-Newest blog post:<br>
-<strong><a href='https://jonathanapedroza.com/posts/2026-04-25-diving-into-data/'>Diving into Data:</a></strong> - <em>2026-04-25</em><br>
-<small>Examining O-rings from NASA's Challenger Flights
-</small> <code>cmdstanpy</code> <code>python</code> <code>bayesian</code> <code>stan</code> <code>pandas</code>
+Newest blog post:
 
 <h2>GitHub Stats</h2>
 

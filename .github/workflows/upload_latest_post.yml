@@ -2,6 +2,7 @@ name: Update Profile README
 on:
   repository_dispatch:
     types: [website_updated]
+  workflow_dispatch:
 
 permissions:
   contents: write

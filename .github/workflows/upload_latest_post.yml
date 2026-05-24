@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: jpedroza1228/JonathanAPedroza.com # Change if your website repo name is different
-          path: website_files
+          path: website
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Update Script
         run: |
-          uv pip install --system -r website_files/pyproject.toml
+          uv pip install --system -r website/pyproject.toml
           python3 .github/scripts/latest_post.py
 
       - name: Commit and push changes

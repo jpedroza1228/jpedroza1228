@@ -28,6 +28,13 @@
 
 <h2>Blog Posts</h2>
 
+Newest blog post:<br>
+<strong><a href="https://jonathanapedroza.com/posts/2026-04-25-diving-into-data/">Diving into Data: Examining O-rings from NASA's Challenger Flights
+</a></strong><br>
+Published date: 2026-04-25<br>
+Topics covered: <code>cmdstanpy</code> <code>python</code> <code>bayesian</code> <code>stan</code> <code>pandas</code>
+
+
 <h2>GitHub Stats</h2>
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=jpedroza1228)](https://github.com/anuraghazra/github-readme-stats)

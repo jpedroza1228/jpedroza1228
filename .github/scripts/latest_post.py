@@ -51,7 +51,7 @@ def update_readme():
   with open(readme_path, "r", encoding="utf-8") as f:
     readme_content = f.read()
         
-  target_heading = "<h2>Blog Posts</h2>"
+  target_heading = "## Blog Posts"
 
   if target_heading not in readme_content:
     print(f"Error: Could not find '{target_heading}' in your README.md!")

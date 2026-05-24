@@ -37,7 +37,7 @@
 
 <h2>Blog Posts</h2>
 
-🚧 Work in progress 🚧
+Newest blog post: 
 
 <h2>GitHub Stats</h2>
 
@@ -46,22 +46,3 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=jpedroza1228)
 <br>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=jpedroza1228)
-
-<!--
-<a href="" target="_blank" rel="noreferrer"> <img src="" alt="" width="50" height="50"/> </a>
-
-**jpedroza1228/jpedroza1228** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<li>SubStack: <a href="url">@jonathanapedroza</a> </li>
--->

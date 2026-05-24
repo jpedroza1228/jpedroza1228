@@ -1,30 +1,86 @@
-<h1>👋 Hi! I'm JP 🤓!</h1> 
+<head>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 30%;
+  width: 100%;
+}
 
-<h3>Things about me</h3>
+.name {
+  position: absolute;
+  top: 120px;
+  left: 140px;
+  font-size: 36px;
+}
 
-<li>Pronouns: he/him</li>
+.title1 {
+  position: absolute;
+  top: 180px;
+  left: 140px;
+  font-size: 24px;
+}
 
-<li>Research Interests: Addressing Educational & Health Disparities for Underserved Populations</li>
-<ul>
-<li>LinkedIn: <a href="https://www.linkedin.com/in/jonathan-a-pedroza-phd-5721a7120/"> LinkedIn</a> </li>
-<li>Mastodon: <a href="https://fosstodon.org/@Jpedroza"> @Jpedroza@fosstodon.org</a> </li>
-</ul>
+.title2 {
+  position: absolute;
+  top: 210px;
+  left: 140px;
+  font-size: 24px;
+}
 
-<h2>Tools I Often Use</h2> 
+.table-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+}
+.table-container div {
+  background-color: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+}
 
-<a href="https://code.visualstudio.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="50" height="50"/> </a> <br>
+code{
+  color: #43BA6F;
+}
+</style>
+</head>
 
-<a href="https://cran.r-project.org/" target="_blank" rel="noreferrer"> <img src="https://cran.r-project.org/Rlogo.svg" alt="R" width="50" height="50"/> </a>
+<div class="container">
+  <img src="./images/plant_background.jpg" alt = "Background with plants around border" style="width:100%;">
+  <div class="name"> Jonathan A. Pedroza, PhD</div>
+  <div class="title1"> Data Science Educator &</div>
+  <div class="title2"> Prevention Scientist</div>
+</div>
+<br>
+👋 Hi, I'm JP (he/him)! I am a data science educator and a Prevention Scientist with research interests focused on early detection and intervention for educational and health disparities in underserved populations. In addition to my research interests, I am passionate about making open-source tools for practitioners to correctly identify at-risk groups. If you are interested in my past research, current projects, my blog posts, or connecting with me you can find more information at my <a href="https://jonathanapedroza.com/">website</a> or my <a href="https://www.linkedin.com/in/jonathan-a-pedroza-phd-5721a7120/">LinkedIn</a>.
 
-<a href="https://mc-stan.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/stan-dev/logos/master/logo.png" alt="Stan" width="50" height="50"/> </a> <br>
+<h2>Tools I Use Often</h2> 
 
-<a href="https://quarto.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/quarto-dev/quarto-web/blob/main/quarto.png?raw=true" alt="Quarto" width="50" height="50"/> </a> 
-
-<a href="https://duckdb.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/duckdb/duckdb/refs/heads/main/logo/DuckDB_Logo-horizontal.svg" alt="duckdb" width="50" height="50"/> </a> <br>
-
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="50" height="50"/> </a> <br>
-
-<a href="https://github.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="50" height="50"/> </a>
+<div class="table-container">
+  <div>Languages</div>
+  <div>Notebooks &<br>Reporting</div>
+  <div>IDEs</div>
+  <div>Database<br>Tools</div>
+  <div>Other<br>Tools</div>
+  <div><img src="./images/R_logo.svg" alt='R language' width="75px" height="75px"></div>
+  <div><img src="./images/jupyter.png" alt='Docker' width="75px" height="75px"></div>
+  <div><img src="./images/rstudio.png" alt='Docker' width="75px" height="75px"></div>
+  <div><img src="./images/sqlite.svg" alt='Docker' width="75px" height="75px"></div>
+  <div><img src="./images/docker.png" alt='Docker' width="75px" height="75px"></div>
+  <div><img src="./images/python.png" alt='Docker' width="75px" height="75px"></div>
+  <div><img src="https://raw.githubusercontent.com/quarto-dev/quarto-web/refs/heads/main/quarto.png" alt='Docker' width="140px" height="50px"></div>
+  <div><img src="./images/positron-logo.png" alt='Docker' width="75px" height="75px"></div>
+  <div><img src="./images/duckdb.png" alt='Docker' width="75px" height="75px"></div>
+  <div><img src="./images/git.png" alt='Docker' width="75px" height="75px"></div>
+  <div><img src="./images/stan.png" alt='Docker' width="75px" height="75px"></div>
+  <div></div>
+  <div><img src="./images/vscode.png" alt='Docker' width="75px" height="75px"></div>
+  <div></div>
+  <div><img src="./images/github.png" alt='Docker' width="75px" height="75px"></div>
+</div>
 
 <h2>Blog Posts</h2>
 

@@ -1,0 +1,17 @@
+[project]
+name = "jpedroza1228"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jonathan A. Pedroza", email = "jpedroza1228@berkeley.edu" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pyhere>=1.0.3",
+    "python-frontmatter>=1.3.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.11,<0.10.0"]
+build-backend = "uv_build"

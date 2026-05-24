@@ -37,7 +37,7 @@
 
 <h2>Blog Posts</h2>
 
-Newest blog post: 
+Newest blog post:
 
 <h2>GitHub Stats</h2>
 

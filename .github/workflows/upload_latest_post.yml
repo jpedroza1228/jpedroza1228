@@ -1,0 +1,43 @@
+name: Update Profile README
+on:
+  repository_dispatch:
+    types: [website_updated]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+        
+      - name: Checkout website repo
+        uses: actions/checkout@v4
+        with:
+          repository: jpedroza1228/JonathanAPedroza.com # Change if your website repo name is different
+          path: website_files
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+
+      - name: Install uv and dependencies
+        uses: astral-sh/setup-uv@v5
+
+      - name: Run Update Script
+        run: |
+          uv pip install --system -r website_files/pyproject.toml
+          python3 .github/scripts/latest_post.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --exit-code README.md; then
+            git add README.md
+            git commit -m "update profile readme with latest posts"
+            git push origin main
+          fi

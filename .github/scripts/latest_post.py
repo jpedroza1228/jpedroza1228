@@ -45,33 +45,26 @@ def update_readme():
   # 2. Build the exact HTML string
   blog_html = (
       f"Newest blog post:<br>\n"
-      f"<strong><a href='{url}'>{title} {subtitle}</a></strong> - <em>{date}</em><br>\n"
-      f"{category_tags}\n"
+      f"<strong><a href='{url}'>{title}</a></strong> - <em>{date}</em><br>\n"
+      f"<small>{subtitle}</small> {category_tags}\n"
   )
   
-  # 3. Define exact delimiter tags matching your README
-  start_tag = ""
-  end_tag = ""
-  
-  # 4. Read the profile README
+  # 3. Read the profile README
   with open(readme_path, "r", encoding="utf-8") as f:
       readme_content = f.read()
-  # Verify the tags exist to prevent errors
-  if start_tag not in readme_content or end_tag not in readme_content:
+  # 4. Verify the tags exist exactly as written to prevent quiet failures
+  if "" not in readme_content or "" not in readme_content:
       print("Error: Could not find the exact comment tags in your README.md!")
       return
-    
-  # 5. Split using the EXACT variable names defined above
-  before_blog = readme_content.split(start_tag)[0]
-  after_blog = readme_content.split(end_tag)[1]
-  # Reassemble the file cleanly
-  updated_content = f"{before_blog}{start_tag}\n{blog_html}{end_tag}{after_blog}"
-  
-  # 6. Save the file back down
+  # 5. Split using hardcoded string literals to guarantee no "empty separator" error
+  before_blog = readme_content.split("")[0]
+  after_blog = readme_content.split("")[1]
+  # 6. Reassemble the file cleanly
+  updated_content = f"{before_blog}\n{blog_html}{after_blog}"
+  # 7. Save the file back down
   with open(readme_path, "w", encoding="utf-8") as f:
       f.write(updated_content)
       
   print(f"Successfully and cleanly updated the README with: '{title}'")
-    
-if __name__ == "__main__":
-    update_readme()
+# if __name__ == "__main__":
+#     update_readme()

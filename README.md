@@ -1,6 +1,6 @@
 ![](./images/mainpage_network.png)
 
-👋 Hi, I'm JP (he/him)! I am a data science educator and a Prevention Scientist with research interests focused on early detection and intervention for educational and health disparities in underserved populations. In addition to my research interests, I am passionate about making open-source tools for practitioners to correctly identify at-risk groups. If you are interested in my past research, current projects, my blog posts, or connecting with me you can find more information at my [website](https://jonathanapedroza.com/) or through [LinkedIn](https://www.linkedin.com/in/jonathan-a-pedroza-phd-5721a7120/).
+👋 Hi, I'm JP (he/him)! I am a data science educator and a Prevention Scientist with research interests focused on early detection and intervention for educational and health disparities in underserved populations. Specifically, I use diagnostic classification models to identify at-risk students by measuring proficiency for skills and their relationships through low-stake constant assessments. In addition to my research interests, I am passionate about making open-source tools for practitioners to correctly identify at-risk groups. If you are interested in my past research, current projects, my blog posts, or connecting with me you can find more information at my [website](https://jonathanapedroza.com/) or through [LinkedIn](https://www.linkedin.com/in/jonathan-a-pedroza-phd-5721a7120/).
 
 ## Tools I Use Often
 

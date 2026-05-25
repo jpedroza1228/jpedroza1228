@@ -9,6 +9,7 @@
 | <img src="./images/R_logo.svg" alt='R language' width="75px"> | <img src="./images/jupyter.png" alt='Jupyter' width="75px"> | <img src="./images/rstudio.png" alt='RStudio' width="75px"> | <img src="./images/sqlite.svg" alt='SQLite' width="75px"> | <img src="./images/docker.png" alt='Docker' width="75px"> |
 | <img src="./images/python.png" alt='Python' width="75px"> | <img src="https://raw.githubusercontent.com/quarto-dev/quarto-web/refs/heads/main/quarto.png" alt='Quarto' width="140px"> | <img src="./images/positron-logo.png" alt='Positron' width="75px"> | <img src="./images/duckdb.png" alt='DuckDB' width="75px"> | <img src="./images/git.png" alt='Git' width="75px"> |
 | <img src="./images/stan.png" alt='Stan' width="75px"> | | <img src="./images/vscode.png" alt='VS Code' width="75px"> | | <img src="./images/github.png" alt='GitHub' width="75px"> |
+|  |  |  |  |  <img src="./images/typst.jpeg" alt='Typst' width="75px">  |
 
 ## Blog Posts
 

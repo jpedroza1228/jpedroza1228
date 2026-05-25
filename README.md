@@ -17,9 +17,4 @@ Newest blog post:
 Topics covered: `cmdstanpy` `python` `bayesian` `stan` `pandas`
 
 ## GitHub Stats
-
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=jpedroza1228)](https://github.com/anuraghazra/github-readme-stats)
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=jpedroza1228)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=jpedroza1228)
+[![JP's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=jpedroza1228&theme=vue)](https://github.com/jpedroza1228/github-readme-activity-graph)
